@@ -6,7 +6,6 @@ $(document).ready(function () {
       basePosition();
     })
     .mousedown(function () {
-      playHadouken();
       hadouken();
     })
     .mouseup(function () {
