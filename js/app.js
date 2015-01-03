@@ -44,6 +44,7 @@ function HadoukenStop(){
         $(this).hide();
         $(this).css('left', '-212px');
       });
+    HadoukenStop();
   }
 
 //Function Roll Up//
@@ -55,9 +56,4 @@ function HadoukenStop(){
       playHadouken();
       hadouken();
     }
-  })
-  $(document).keyup(function (e) {
-    if (event.keyCode == 120) {
-      HadoukenStop();
-    };
   })
