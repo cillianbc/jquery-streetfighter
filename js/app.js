@@ -43,7 +43,6 @@ function HadoukenStop(){
         $(this).hide();
         $(this).css('left', '-212px');
       });
-    HadoukenStop();
   }
 
 //Function Roll Up//
