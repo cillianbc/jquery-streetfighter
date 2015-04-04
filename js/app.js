@@ -48,10 +48,16 @@ function HadoukenStop(){
 //Function Roll Up//
 
 
-  $(document).keypress(function (e) {
-    if (event.keyCode == 120) {
+  $(document).keydown(function (e) {
+    if (e.keyCode == 88) {
       Ready();
       playHadouken();
       hadouken();
+    }
+  })
+
+  $(document).keyup(function (e) {
+    if (e.keyCode == 88) {
+      HadoukenStop();
     }
   })
